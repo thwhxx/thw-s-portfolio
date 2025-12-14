@@ -16,7 +16,7 @@ export function SiteHeader() {
         {/* Action */}
         <Button asChild size="sm" className="bg-pink-500 hover:bg-pink-600">
           <a
-            href="/Anh-Thu-Huynh-Frontend-Developer-CV.pdf"
+            href="frontend-Developer-Anh-Thu-Huynh.pdf"
             target="_blank"
             rel="noreferrer"
           >
