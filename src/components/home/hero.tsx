@@ -19,7 +19,7 @@ export default function HeroSection() {
     >
       <div className="max-w-xl">
         <p className="text-sm uppercase tracking-[0.25em] text-pink-500">
-          Frontend Developer
+          Software Developer
         </p>
         <h1 className="mt-2 text-4xl font-bold tracking-tight md:text-5xl">
           Hi, I’m <span className="text-pink-500">Anh Thu</span>.
@@ -34,12 +34,12 @@ export default function HeroSection() {
 
         <div className="mt-6 flex flex-wrap gap-3">
           <Button className="bg-pink-500 hover:bg-pink-600" asChild>
-            <a href="/projects">View Projects</a>
+            <a href="#projects">View Projects</a>
           </Button>
           <Button variant="outline" asChild>
             <a
-              href="/Anh-Thu-Huynh-Frontend-Developer-CV.pdf"
-              target="_blank"
+              href="/frontend-Developer-Anh-Thu-Huynh.pdf"
+              download="frontend-Developer-Anh-Thu-Huynh.pdf"
             >
               Download Resume
             </a>
@@ -53,9 +53,7 @@ export default function HeroSection() {
         </p>
         <p className="text-sm">
           🎓 Studying{" "}
-          <span className="font-medium">
-            Computer Programming & Analysis
-          </span>{" "}
+          <span className="font-medium">Computer Programming & Analysis</span>{" "}
           at Conestoga College.
         </p>
         <p className="mt-2 text-sm">

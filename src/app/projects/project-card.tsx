@@ -15,7 +15,7 @@ export type ProjectCardModel = {
   live_url?: string | null;
 };
 
-const MotionCard = motion(Card);
+const MotionCard = motion.create(Card);
 
 export default function ProjectCard({
   project,

@@ -10,13 +10,13 @@ export function SiteHeader() {
         {/* Brand */}
         <Link href="/" className="font-semibold tracking-tight">
           <span className="text-pink-500">Anh Thu</span>{" "}
-          <span className="text-muted-foreground">/ Frontend Developer</span>
+          <span className="text-muted-foreground">/ Software Developer</span>
         </Link>
 
         {/* Action */}
         <Button asChild size="sm" className="bg-pink-500 hover:bg-pink-600">
           <a
-            href="frontend-Developer-Anh-Thu-Huynh.pdf"
+            href="frontend-Developer-Anh-Thu-Huynh.pdfnpm "
             target="_blank"
             rel="noreferrer"
           >

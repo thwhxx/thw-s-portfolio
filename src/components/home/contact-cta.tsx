@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Button } from "@/components/ui/button";
+import ContactLinksSection from "@/components/home/contact-links";
 
 const sectionVariant = {
   hidden: { opacity: 0, y: 40 },
@@ -22,23 +22,10 @@ export default function ContactCtaSection() {
         Let&apos;s work together
       </h2>
       <p className="mt-2 text-sm text-muted-foreground">
-        I&apos;m open to internships, junior frontend roles, and freelance
+        I&apos;m open to internships, junior software roles, and freelance
         projects. Feel free to reach out.
       </p>
-      <div className="mt-4 flex justify-center gap-3">
-        <Button className="bg-pink-500 hover:bg-pink-600" asChild>
-          <a href="mailto:huynhthuhuynh2611@gmail.com">Email me</a>
-        </Button>
-        <Button variant="outline" asChild>
-          <a
-            href="https://www.linkedin.com/in/thwhxx"
-            target="_blank"
-            rel="noreferrer"
-          >
-            LinkedIn
-          </a>
-        </Button>
-      </div>
+      <ContactLinksSection />
     </motion.section>
   );
 }

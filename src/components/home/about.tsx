@@ -28,7 +28,7 @@ export default function AboutSection() {
           </CardHeader>
           <CardContent className="space-y-3 text-sm text-muted-foreground">
             <p>
-              I’m a software developer with a strong focus on frontend
+              I’m a software developer with a strong focus on software
               engineering and real backend integration.
             </p>
             <p>

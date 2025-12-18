@@ -15,7 +15,7 @@ export default async function FeaturedProjectsSection() {
   ) as ProjectCardModel[];
 
   return (
-    <section className="mb-16">
+    <section id="projects" className="mb-16">
       <h2 className="text-xl font-semibold tracking-tight">Projects</h2>
       <p className="mt-1 text-sm text-muted-foreground">
         All projects are loaded from Supabase (PostgreSQL + RLS).

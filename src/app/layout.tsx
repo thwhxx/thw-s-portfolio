@@ -6,9 +6,9 @@ import { SiteHeader } from "@/components/site-header";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Anh Thu Huynh – Frontend Developer",
+  title: "Anh Thu Huynh – Software Developer",
   description:
-    "Portfolio of Anh Thu – Frontend Developer (Angular, React, Next.js).",
+    "Portfolio of Anh Thu – Software Developer (Angular, React, Next.js).",
 };
 
 export default function RootLayout({
