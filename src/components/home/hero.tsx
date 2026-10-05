@@ -53,6 +53,13 @@ export default function HeroSection() {
         </p>
         <p className="text-sm">
           🎓 Studying{" "}
+          <span className="font-medium">
+            Bachelor of Computer Science (Honours)
+          </span>{" "}
+          at Conestoga College.
+        </p>
+        <p className="text-sm">
+          🎓 Graduated{" "}
           <span className="font-medium">Computer Programming & Analysis</span>{" "}
           at Conestoga College.
         </p>
